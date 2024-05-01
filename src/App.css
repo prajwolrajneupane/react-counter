@@ -1,0 +1,16 @@
+span{
+  margin: 20px;
+}
+
+button{
+  background-image: linear-gradient(to right, green, yellow, orange, red);
+  height: 50px;
+  width: 50px;
+  transition: 0.5s;
+
+  border: transparent;
+}
+
+button:hover{
+  border-radius: 20%;
+}
