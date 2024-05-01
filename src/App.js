@@ -9,7 +9,9 @@ function App() {
 changeValue(value+1)
   }
 
+
   function decrement(){
+  if(value!=0)
     changeValue(value-1)
 
   }
